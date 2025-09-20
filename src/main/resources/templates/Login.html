@@ -16,7 +16,7 @@
 	
 	<!-- loop with conditional expression -->
 	<p th:each="food: ${foods}" th:text="${food.name} + ': ' + (${food.isFruit} ? 'FRUIT' : 'NON-FRUIT')"></p>
-	
+	<h1>K xa daenish</h1>
 	<form action="/login" method="post">
 		<input type="text" placeholder="Username" name="username" />
 		<input type="password" placeholder="Password" name="password" />
